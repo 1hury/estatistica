@@ -7,7 +7,7 @@ def analisar_dados_estatisticos(dados_brutos, nome_do_conjunto):
 
     # 1. Rol (Dados Ordenados)
     rol = sorted(dados_brutos)
-    print("\nn1. Rol (Dados Ordenados):")
+    print("\n1. Rol (Dados Ordenados):")
     print(f" {rol}")
 
     # 2. Tamanho da Amostra (n) 
