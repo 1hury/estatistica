@@ -21,7 +21,7 @@ def gerar_dados_brutos(num_registros):
             taxa_homicidios = round(random.uniform(1.0, 15.0),1)
             dados_brutos.append({
                 "Cidade": nome_cidade,
-                "População": populacao,
+                "Populacao": populacao,
                 "Taxa homicidios": taxa_homicidios                
             })
     return pd.DataFrame(dados_brutos)

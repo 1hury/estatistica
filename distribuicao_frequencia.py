@@ -51,7 +51,6 @@ def analisar_dados_estatisticos(dados_brutos, nome_do_conjunto):
     limite_inferior = x_min
     for i in range(k): # k = 5(número de classes)
         limite_superior = limite_inferior + h # h = 2
-        # Classes
         classes.append(f"[{limite_inferior:.2f} --| {limite_superior:.2f}]")
         # Frequencia Absoluta
         if i == k -1:
