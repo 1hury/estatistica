@@ -80,14 +80,11 @@ sns.boxplot(data = serie_as_dataframe, ax = caixa)
 plt.ylabel("variação percentual diária")
 plt.title("Boxplot")
 
-
 # Desnsidade 
 #plt.figure()
 sns.kdeplot(data = serie_as_dataframe, ax = densidade)
 plt.xlabel("variação percentual diária")
 plt.ylabel("Ocorrências")
 plt.title("densidade")
-
-
 
 plt.show()
