@@ -19,3 +19,4 @@ plt.ylabel('Notas da Prova')
 plt.title('Gráfico de Regressão: Horas de Estudo vs Desempenho nas Provas')
 
 plt.show()
+
